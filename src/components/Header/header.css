@@ -1,0 +1,36 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container > h1{
+    
+        font-family: 'Cocomat';
+        src: url('../../fonts/Cocomat Light-trial.ttf');
+    
+
+}
+
+
+.logo-container{
+    display: flex;
+    /* justify-content:  */
+}
+.logo-container > img {
+    width: 200px;
+    height: 200px;
+}
+.pages-container{
+    display: flex
+}
+.pages-container > ul{
+    list-style: none;
+    padding: 0 1em;
+    display: flex;
+
+}
+.shopping-container{
+    display: flex
+}
+.shopping-container > i{
+    padding-left: 1em;
+}

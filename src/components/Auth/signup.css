@@ -1,0 +1,309 @@
+	.mediaViewInfo {
+		--web-view-name: SIGN IN;
+		--web-view-id: SIGN_IN;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: SIGN_IN;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#SIGN_IN {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: SIGN IN;
+		--web-view-id: SIGN_IN;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Rectangle_34_di {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_34_di {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1200px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_9_dj {
+		position: absolute;
+		width: 813px;
+		height: 813px;
+		left: 719px;
+		top: -527px;
+		overflow: visible;
+	}
+	#Grey_Velvet_Logo_FINAL_2_dk {
+		position: absolute;
+		width: 813px;
+		height: 813px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_28_dl {
+		fill: rgba(198,198,198,1);
+	}
+	.Rectangle_28_dl {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1px;
+		left: 0px;
+		top: 150px;
+	}
+	#SIGN_IN_dm {
+		/* left: 766px;
+        position: absolute; */
+        position: absolute; 
+		top: 264px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,87,12,1);
+	}
+	#SIGN_UP_dn {
+		/* left: 972px;
+		top: 264px;
+        position: absolute; */
+        position: absolute; 
+		top: 264px;
+        left: 0; 
+        right: 0; 
+        margin-left: 5; 
+        margin-right: auto;
+		overflow: visible;
+		width: 176px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: SIGN_UP.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(34,34,34,1);
+	}
+	#Rectangle_29_do {
+		opacity: 0.304;
+		fill: rgba(105,105,105,1);
+	}
+	.Rectangle_29_do {
+		position: absolute;
+		overflow: visible;
+		width: 388px;
+		height: 2px;
+		left: 766px;
+		top: 334px;
+	}
+	#Rectangle_30_dp {
+		fill: rgba(255,87,12,1);
+	}
+	.Rectangle_30_dp {
+		position: absolute;
+		overflow: visible;
+		width: 166px;
+		height: 5px;
+		left: 766px;
+		top: 332px;
+	}
+	#Rectangle_31_dq {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(155,155,155,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_31_dq {
+		position: absolute;
+		overflow: visible;
+		width: 1000px;
+		height: 120px;
+		left: 460px;
+		top: 421px;
+	}
+	#Rectangle_32_dr {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(155,155,155,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_32_dr {
+		position: absolute;
+		overflow: visible;
+		width: 1000px;
+		height: 120px;
+		left: 460px;
+		top: 581px;
+	}
+	#Rectangle_33_ds {
+		fill: rgba(34,34,34,1);
+	}
+	.Rectangle_33_ds {
+		position: absolute;
+		overflow: visible;
+		width: 1000px;
+		height: 120px;
+		left: 460px;
+		top: 741px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Home.html;
+		cursor: pointer;
+	}
+	#SIGN_IN_dt {
+		left: 878px;
+		top: 775px;
+		position: absolute;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Home.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#Email_Address_du {
+		left: 500px;
+		top: 454px;
+		position: absolute;
+		overflow: visible;
+		width: 278px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 45px;
+		color: rgba(155,155,155,1);
+	}
+	#Password {
+		left: 500px;
+		top: 614px;
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 45px;
+		color: rgba(155,155,155,1);
+	}
+	#Group_11 {
+		position: absolute;
+		width: 308px;
+		height: 38px;
+		left: 806px;
+		top: 941px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: SIGN_UP.html;
+		cursor: pointer;
+	}
+	#Dont_have_an_account {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 309px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(34,34,34,1);
+	}
+	#Rectangle_35 {
+		fill: rgba(34,34,34,1);
+	}
+	.Rectangle_35 {
+		position: absolute;
+		overflow: visible;
+		width: 308px;
+		height: 1px;
+		left: 0px;
+		top: 37px;
+	}
+	#Group_12 {
+		position: absolute;
+		width: 237px;
+		height: 38px;
+		left: 842px;
+		top: 1019px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: FORGOT_PASSWORD.html;
+		cursor: pointer;
+	}
+	#Forgot_Password {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(34,34,34,1);
+	}
+	#Rectangle_36 {
+		fill: rgba(34,34,34,1);
+	}
+	.Rectangle_36 {
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		height: 1px;
+		left: 0px;
+		top: 37px;
+	}
